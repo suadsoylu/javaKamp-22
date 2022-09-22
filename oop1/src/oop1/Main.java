@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         String mesaj = "Vade oranı";
+            System.out.println(mesaj);
 
         Product product1 = new Product();
         product1.setName("Delonghi Kahve Makinesi");
@@ -55,5 +56,10 @@ public class Main {
 
         //alttaki satırın mantığı üzerinde dur//
         Customer[] customers = {individualCustomer,corpareteCustomer};
+        for (Customer cstmr: customers
+             ) {
+            System.out.println("<li>" + cstmr.getId() + "</li>");
+        }
+        System.out.println("</ul>");
     }
 }
