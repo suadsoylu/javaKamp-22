@@ -13,6 +13,7 @@ public class Main {
         product1.setImageUrl("image1.jpg");
 
 
+
         Product product2 = new Product();
         product2.setName("Tchibo Kahve Makinesi");
         product2.setDiscount(7);
